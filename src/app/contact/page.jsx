@@ -14,7 +14,7 @@ function Contact() {
 <div className="card bg-base-100 w-96 shadow-xl">
   <figure>
     <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      src="https://i.ibb.co.com/rHMJzhP/IMG-3341.jpg"
       alt="Shoes" />
   </figure>
   <div className="card-body">
