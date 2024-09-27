@@ -4,9 +4,8 @@ function Hero() {
   return (
     <>
 
-
 <section>
-    <p>I am nextJs learner...</p>
+  <p>Under construction</p>
 </section>
 
     </>
