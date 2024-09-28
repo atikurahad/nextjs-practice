@@ -1,15 +1,12 @@
-import React from "react";
+import About from '@/components/About'
+import React from 'react'
 
-function About() {
+function page() {
   return (
-    <div>
-      <section>
-        <h1 className="text-6xl text-center font-bold my-6">
-        About Me
-        </h1>
-      </section>
-    </div>
-  );
+    <>
+    <About/>
+    </>
+  )
 }
 
-export default About;
+export default page
