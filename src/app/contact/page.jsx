@@ -1,34 +1,21 @@
-import React from 'react'
+import React from "react";
+import { FaHome } from "react-icons/fa";
 
 function Contact() {
   return (
     <>
-       
-       {/* <section className='h-48 w-64 bg-lime-950 font-bold text-xl text-white'>
+      <main>
+        <h1
+          className="text-4xl font-extrabold text-center text-white" >
+          Contact
+        </h1>
 
-       <h1>Phone: 0187567627287</h1>
-       <h1>email: example@gmail.com</h1>
-
-       </section> */}
-
-<div className="card bg-base-100 w-96 shadow-xl">
-  <figure>
-    <img
-      src="https://i.ibb.co.com/rHMJzhP/IMG-3341.jpg"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
-
-
+        <section>
+       <span>   <FaHome/> Dhaka, Bangladesh</span>
+        </section>
+      </main>
     </>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
